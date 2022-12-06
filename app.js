@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://127.0.0.1:27017/blogdb");
+mongoose.connect("mongodb+srv://admin-gautam:admin123@cluster0.kf4ufox.mongodb.net/blogdb");
 
 
 
